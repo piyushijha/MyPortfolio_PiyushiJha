@@ -1,0 +1,129 @@
+h1 {
+    color: white;
+
+    padding-left: 30px
+}
+
+/* 
+ .header * {
+     border: solid
+     
+ } */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    margin-right: 30px;
+    
+}
+
+.menu a {
+    margin-left:20px;
+    font-size:20px
+}
+
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #9090CD;
+}
+
+.item {
+   position: relative;
+     
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;  
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+}
+
+.item:hover p{
+ opacity: 1;   
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color:white;
+}
+
+
+/* 
+
+hexadecimal - 16
+0 - 00 in hex
+255 - FF in hex
+
+255/16
+QR - 1515 - FF
+
+ */
+
+ /* 128/16 
+ Q - 8
+ R - 0
+
+ #80ggbb */
+
+ /* * {
+    
+    border:  solid;  
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: red; 
+    border-radius: 20px; */
+
+    /* margin: 10px;
+    padding : 50px; */
+
+    /* margin-left: 100 px; */
+
+    /* padding : top right bottom left;
+    padding: 5px 10px 15px 2px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+
+    margin: 30px;
+
+    font-size: 40px;
+
+    color : red; */
+    
